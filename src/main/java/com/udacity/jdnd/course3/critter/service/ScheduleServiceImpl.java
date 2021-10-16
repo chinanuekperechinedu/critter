@@ -19,8 +19,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-@Service
 @Transactional
+@Service
 public class ScheduleServiceImpl implements ScheduleService{
      @Autowired
      ScheduleRepository scheduleRepository;

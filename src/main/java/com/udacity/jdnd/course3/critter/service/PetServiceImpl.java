@@ -14,8 +14,8 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 @Transactional
+@Service
 public class PetServiceImpl implements PetService {
 
     @Autowired

@@ -16,8 +16,8 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
 
-@Service
 @Transactional
+@Service
 public class EmployeeServiceImpl implements EmployeeService{
 
     @Autowired

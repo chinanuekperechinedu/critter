@@ -6,10 +6,11 @@ import com.udacity.jdnd.course3.critter.schedule.ScheduleDTO;
 
 
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-
+@Transactional
 public interface ScheduleService {
 
     Schedule createNewSchedule(Schedule schedule);
