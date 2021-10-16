@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.stream.Stream;
 
 
-@Transactional
+
 public interface EmployeeService {
 
     Employee createNewEmployee(Employee employee);
